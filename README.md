@@ -3,6 +3,13 @@
 ## Objetivo
 Aplicar o algoritmo **K-means** para segmentar espécies de pinguins (Adelie, Chinstrap e Gentoo) com base em características físicas, validando o uso de clustering em dados biológicos.
 
+## Ferramentas Utilizadas  
+- **Python**  
+- **Pandas | NumPy | Seaborn | Matplotlib | Scikit-learn**| **K-means|**
+- **Jupyter Notebook**  
+
+---
+
 ## Etapas
 1. **Carregamento e exploração da base**  
 2. **Pré-processamento**: tratamento de valores faltantes e padronização  
@@ -29,24 +36,13 @@ Aplicar o algoritmo **K-means** para segmentar espécies de pinguins (Adelie, Ch
 O K-means separou bem os Gentoo, isolados por maior massa corporal e comprimento da barbatana.  
 Adelie e Chinstrap permanecem próximos, com sobreposição em algumas variáveis.  
 As variáveis mais relevantes foram **flipper_length_mm** e **body_mass_g** para distinguir Gentoo, e **bill_length_mm** e **bill_depth_mm** para diferenciar Adelie e Chinstrap.
+  
+---
 
 ## Aplicações de Clusterização
 - **Segmentação de clientes** → agrupar consumidores por comportamento de compra.  
 - **Agrupamento de documentos** → organizar textos em grupos temáticos.  
 - **Análise genética** → identificar padrões em DNA/RNA para pesquisas médicas e evolutivas.  
-
----
-
-##  Ferramentas Utilizadas  
-- **Python**  
-- **Pandas | NumPy | Seaborn | Matplotlib | Scikit-learn**| K-means|
-- **Jupyter Notebook**  
-
----
-
-##  Resultados  
-- Clusters bem definidos que refletem diferenças físicas entre as espécies.  
-- Modelo interpretável e aplicável em contextos biológicos.  
 
 ---
 
